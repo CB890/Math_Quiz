@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Math Quiz</h1>
+        <form id="quiz-form">
+            <div class="question-container">
+                <h3>Question 1: What is 7 + 15?</h3>
+                <input type="number" name="q1" required>
+            </div>
+            
+            <div class="question-container">
+                <h3>Question 2: What is 8 × 9?</h3>
+                <input type="number" name="q2" required>
+            </div>
+            
+            <div class="question-container">
+                <h3>Question 3: What is 64 ÷ 8?</h3>
+                <input type="number" name="q3" required>
+            </div>
+            
+            <div class="question-container">
+                <h3>Question 4: What is 25 - 13?</h3>
+                <input type="number" name="q4" required>
+            </div>
+            
+            <div class="user-info">
+                <h3>Your Information</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            
+            <button type="submit" id="submit-btn">Submit Quiz</button>
+        </form>
+        <div id="results" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
